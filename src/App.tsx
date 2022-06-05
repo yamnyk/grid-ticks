@@ -7,7 +7,7 @@ import Game from "./components/Game/Game";
 
 function App() {
   return <div>
-    <Game delay={800}/>
+    <Game delay={400}/>
   </div>
 }
 

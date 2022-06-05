@@ -15,8 +15,8 @@ const Grid = ({matrix}: GridType) => {
 
   const gridConfig = {
     gridTemplateColumns: `repeat(${size}, 1fr)`,
-    gridAutoRows: '50px',
-    gap: '15px'
+    gridAutoRows: '5px',
+    gap: '5px'
   }
 
   return (

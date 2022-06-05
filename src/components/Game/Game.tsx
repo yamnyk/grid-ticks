@@ -16,7 +16,7 @@ const Game = ({delay}: GameType) => {
   const size = matrix?.[0]?.length || false
 
   const handleAddGrid = () => {
-    setMatrix(generateGrid(5))
+    setMatrix(generateGrid(50))
   }
 
   const handleStart = () => {
