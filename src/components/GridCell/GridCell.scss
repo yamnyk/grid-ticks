@@ -1,0 +1,8 @@
+.grid-cell {
+  box-sizing: border-box;
+  background-color: black;
+
+  &--alive {
+    background-color: white;
+  }
+}
