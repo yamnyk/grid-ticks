@@ -7,8 +7,7 @@ export type GridCellType = {
 
 const GridCell = ({isAlive}: GridCellType) => {
   return (
-    <div className={["grid-cell", isAlive ? "grid-cell--alive" : ''].join(' ')}>
-    </div>
+    <div className={["grid-cell", isAlive ? "grid-cell--alive" : ''].join(' ')} data-testid='matrixCell'/>
   );
 };
 
